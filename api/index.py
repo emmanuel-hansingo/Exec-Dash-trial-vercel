@@ -5,6 +5,8 @@ from dash import Dash, html, dcc
 from dash import Input, Output
 from dash import dash_table
 from flask import Flask
+from dash import Dash
+
 
 import pandas as pd
 import plotly.express as px
