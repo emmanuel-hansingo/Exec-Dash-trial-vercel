@@ -65,7 +65,14 @@ def kpi_card(title, value):
 # =========================
 # APP INITIALIZATION
 # =========================
-app = Dash(__name__)
+#app = Dash(__name__)
+server = Flask(__name__)
+
+app = Dash(
+    __name__,
+    server=server,
+    requests_pathname_prefix="/"
+)
 
 
 # =========================
@@ -264,6 +271,6 @@ def update_dashboard(region, product):
 # =========================
 # RUN APP
 # =========================
-
-if __name__ == "__main__":
-    app.run(debug=True)
+app = server
+#if __name__ == "__main__":
+#    app.run(debug=True)
