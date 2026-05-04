@@ -146,7 +146,10 @@ app.layout = html.Div([
     ],
     style={
         "display":"flex",
-        "gap":"20px"
+        "gap":"20px",
+        #"padding":"30px",
+        'marginLeft': 'auto',     # Center horizontally
+        'marginRight': 'auto'
     }),
 
     # ---------------------
