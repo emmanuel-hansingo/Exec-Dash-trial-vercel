@@ -170,7 +170,9 @@ app.layout = html.Div([
 style={
     "padding":"30px",
     "backgroundColor":"#f5f5f5",
-    "width":"90%"
+    "width":"90%",
+    'marginLeft': 'auto',     # Center horizontally
+    'marginRight': 'auto'
 })
 
 
