@@ -146,7 +146,7 @@ app.layout = html.Div([
     ],
     style={
         "display":"flex",
-        "gap":"20px",
+        "gap":"30px",
         'width': '80%', 
         #"padding":"30px",
         'marginLeft': 'auto',     # Center horizontally
@@ -170,7 +170,7 @@ app.layout = html.Div([
 style={
     "padding":"30px",
     "backgroundColor":"#f5f5f5",
-    "width":"100%"
+    "width":"90%"
 })
 
 
