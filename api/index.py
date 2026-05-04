@@ -166,7 +166,7 @@ app.layout = html.Div([
 style={
     "padding":"30px",
     "backgroundColor":"#f5f5f5",
-    "width":"135%"
+    #"width":"135%"
 })
 
 
